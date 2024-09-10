@@ -6,6 +6,9 @@ html {
 
 
 main {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,8 +16,6 @@ main {
 }
 
 .container {
-    background-image: url(../images/background.png);
-    background-repeat: no-repeat;
     width: 800px;
     height: 402px;
     display: grid;

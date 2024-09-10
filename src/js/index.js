@@ -12,9 +12,10 @@ btnEnviar[0].addEventListener("click", () => {
             obrigatorio[index].classList.add("texto-desaparecer")
 
         } else {
-            allInputs[index].classList.add("obrigatorio-n")
             allInputs[index].classList.remove("obrigatorio-ok")
+            allInputs[index].classList.add("obrigatorio-n")
             obrigatorio[index].classList.add("no-text")
+            obrigatorio[index].classList.remove("texto-desaparecer")
         }
     })
 })

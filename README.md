@@ -1,19 +1,8 @@
-# Desafio do curso DevQuest - HTML/CSS/JS Intermediário
+# React + Vite
 
-## Conteúdo
- - Link da Solução: ([Clique aqui](https://gvcarmo.github.io/desafio-html-css-js-intermediario/))
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Built with
+Currently, two official plugins are available:
 
-- HTML5
-- CSS3
-- JS
-
-### O que eu aprendi
-
-Foi meu primeiro desafio com JS, eu quebrei muito a cabeça para resolver, pois ainda estou me acostumando com a linguagem.
-
-## Author
-
-- Linkedin - [Giovanni Vittorazze do Carmo](https://www.linkedin.com/in/gvcarmo/)
-- Frontend Mentor - [@gvcarmo](https://www.frontendmentor.io/profile/gvcarmo)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

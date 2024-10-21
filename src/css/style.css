@@ -58,6 +58,10 @@ main {
     flex-direction: column;
 }
 
+.required-field {
+    padding-top: 10px;
+}
+
 .formulario .form .todos-inputs, 
 .formulario .form .obrigatorio-last {
     position: relative;
@@ -75,7 +79,7 @@ main {
     color: red;
     font-size: 8px;
     position: absolute;
-    top: 107px;
+    top: 100px;
     display: none;
 }
 
@@ -95,7 +99,8 @@ main {
     border: 2px solid red;
 }
 
-.formulario .form input {
+.formulario .form input,
+.formulario .form textarea {
     padding: 10px;
     width: 100%;
     margin-bottom: 15px;
